@@ -1,0 +1,25 @@
+<nav class="navbar-main">
+          <ul class="flexboxlinks">
+            <div class="icon">
+              <img src="images/dark 2.jpg" alt="" width="50%" />
+            </div>
+            <div class="main-links">
+              <li><a href="index.html" id="menu-toggle">HOME</a></li>
+              <li><a href="register.html" id="menu-toggle">REGIRSTER</a></li>
+              <li><a href="login.html" id="menu-toggle">LOGIN</a></li>
+              <li><a href="admin.html" id="menu-toggle">ADMIN LOGIN</a></li>
+              <li><a href="addpost.html" id="menu-toggle">ADD POST</a></li>
+            </div>
+            <a href="#" id="myButton" class="btn btn-primary">
+              <span class="material-symbols-outlined hamburger-btn" id="burger">
+                menu
+              </span>
+            </a>
+
+            <div class="Search-Bar">
+              <input type="text" placeholder="Search..." /><button>
+                Search
+              </button>
+            </div>
+          </ul>
+        </nav>

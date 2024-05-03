@@ -1,0 +1,88 @@
+body {
+  display: flex;
+  justify-content: center;
+  margin: 0;
+  padding: 0;
+}
+main {
+  width: 30%;
+  border-radius: 10%;
+  height: 80dvh;
+  margin-top: 7%;
+  border: 2px solid black;
+  background-color: #00adb5;
+  display: flex;
+  justify-content: center;
+  box-shadow: 5px 5px 1px #222831;
+}
+
+form {
+  width: 80%;
+  padding: 2%;
+}
+
+input {
+  display: block;
+  width: 80%;
+  margin: 5% 0;
+  border-right: none;
+  border-left: none;
+  border-top: none;
+  background-color: transparent;
+  color: #eee;
+  border-color: #000;
+}
+input:focus {
+  outline: none;
+}
+label {
+  color: #222831;
+  display: block;
+  width: 70%;
+}
+.test {
+  width: 20%;
+}
+.Gender {
+  width: 50%;
+}
+form {
+  width: 60%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+#btn {
+  width: 50%;
+  border: 2px solid #222831;
+  background-color: #eee;
+  border-radius: 20%;
+  display: block;
+}
+a {
+  text-decoration: none;
+}
+input[type="radio"] {
+  width: fit-content;
+}
+input[type="submit"] {
+  color: #000;
+  height: 30px;
+  width: 30px;
+}
+
+@media screen and (max-width: 800px) {
+  main {
+    min-width: 70%;
+    margin-top: 20%;
+  }
+  label {
+    font-size: 12px;
+    width: 60%;
+  }
+  #btn {
+    width: 80%;
+    display: block;
+  }
+}
